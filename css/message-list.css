@@ -5,12 +5,15 @@
     flex-direction: column-reverse;
     gap: 1.5rem;
     padding: 1rem;
-    /* border: 8px solid blue; */
     flex-grow: 1;
-    background-image: url('../images/background.png');
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    background-size: 100% 100%;
-    object-fit: cover;
     overflow-y: auto;
+}
+
+.background-message-list {
+    display: flex;
+    background-image: url('../images/background-whatsapp.png');
+    background-repeat: repeat;
+    background-color: #efeae2;
+    object-fit: cover;
+    overflow: hidden;
 }
