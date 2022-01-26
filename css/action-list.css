@@ -1,3 +1,5 @@
 .action-list {
     block-size: var(--actionSize);
+    display: flex;
+    flex-shrink: 0;
 }

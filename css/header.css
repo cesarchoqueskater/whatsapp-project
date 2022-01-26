@@ -3,6 +3,7 @@
     background-color: var(--grey-4);
     padding-inline: 1rem;
     display: flex;
+    flex-shrink: 0;
     justify-content: space-between;
 }
 

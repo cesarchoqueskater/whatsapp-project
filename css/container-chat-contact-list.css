@@ -5,7 +5,20 @@
     gap: .5rem;
     align-items: center;
     padding: 1rem;
+    position: relative;
     /* justify-content: center; */
+}
+
+.container-chat-contact-list::after {
+    content: '';
+    border-bottom: 1px solid var(--grey-2);
+    width: 23.37rem;
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
 }
 
 .chat-profile-details {
