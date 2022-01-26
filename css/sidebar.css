@@ -1,0 +1,6 @@
+.sidebar {
+    /* border: 1px solid purple; */
+    inline-size: var(--sidebarInlinseSize);
+    overflow-y: auto;
+    block-size: 100vh;
+}

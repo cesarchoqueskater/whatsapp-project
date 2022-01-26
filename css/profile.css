@@ -1,0 +1,9 @@
+.header-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-profile img {
+    border-radius: 50%;
+}

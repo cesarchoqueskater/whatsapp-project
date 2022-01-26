@@ -1,0 +1,36 @@
+.container-chat-contact-list {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    align-items: center;
+    padding: 1rem;
+    /* justify-content: center; */
+}
+
+.chat-profile-details {
+    flex: 1;
+}
+
+.chat-details {
+    margin-block-start: 0;
+    margin-block-end: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.chat-contact-name {
+    font: var(--body-16regular);
+    color: var(--black);
+}
+
+.chat-contact-date {
+    font: var(--caption-12regular);
+    color: var(--grey);
+}
+
+.chat-contact-last-message {
+    font: var(--caption-12regular);
+    color: var(--grey);
+}

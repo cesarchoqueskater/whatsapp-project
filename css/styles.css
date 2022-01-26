@@ -1,13 +1,22 @@
+@import url('./layout.css');
+@import url('./sidebar.css');
 @import url('./user.css');
 @import url('./header.css');
 @import url('./chat.css');
 @import url('./action-list.css');
 @import url('./message-list.css');
 @import url('./message.css');
+@import url('./sidebar.css');
+@import url('./profile.css');
+@import url('./contact-list.css');
+@import url('./form-search.css');
 :root {
-    --headerSize: 80px;
-    --actionSize: 80px;
     font-size: 16px;
+    --sidebarInlinseSize: 27.43rem;
+    --minBlockSize: 48rem;
+    --headerSize: 80px;
+    --form-search: 80px;
+    --actionSize: 80px;
     --black: #000000;
     --grey: #666667;
     --grey-2: #f2f2f2;

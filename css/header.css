@@ -1,7 +1,7 @@
 .header {
     block-size: var(--headerSize);
     background-color: var(--grey-4);
-    padding: 1rem;
+    padding-inline: 1rem;
     display: flex;
     justify-content: space-between;
 }
