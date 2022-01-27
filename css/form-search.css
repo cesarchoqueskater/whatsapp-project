@@ -10,7 +10,13 @@
     justify-content: center;
     align-items: center;
     block-size: inherit;
-    /* flex: 1; */
+    position: relative;
+}
+
+.search i {
+    font-size: 1.5rem;
+    position: absolute;
+    left: 1.5rem;
 }
 
 .search-input {
@@ -21,6 +27,6 @@
     width: 100%;
     padding-block-start: 0.875rem;
     padding-block-end: 0.875rem;
-    padding-inline-start: 1.5rem;
+    padding-inline-start: 4rem;
     padding-inline-end: 1.5rem;
 }

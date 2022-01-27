@@ -10,6 +10,7 @@
 @import url('./profile.css');
 @import url('./contact-list.css');
 @import url('./form-search.css');
+@import url('./icons.css');
 :root {
     font-size: 16px;
     --sidebarInlinseSize: 27.43rem;

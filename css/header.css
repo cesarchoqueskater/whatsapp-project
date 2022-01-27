@@ -13,3 +13,8 @@
     gap: 1rem;
     align-items: center;
 }
+
+.header-secondary .icon-search-active {
+    font-size: 1.5rem;
+    cursor: pointer;
+}

@@ -47,3 +47,10 @@
     font: var(--caption-12regular);
     color: var(--grey);
 }
+
+.chat-contact-last-message::before {
+    content: url('../images/check.png');
+    inline-size: 1rem;
+    block-size: .625rem;
+    margin-inline-end: .25rem;
+}
