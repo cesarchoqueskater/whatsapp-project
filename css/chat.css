@@ -9,3 +9,7 @@
 .chat>* {
     /* border: 5px solid green; */
 }
+
+.chat .header {
+    border-inline-start: 2px solid var(--grey-1);
+}
