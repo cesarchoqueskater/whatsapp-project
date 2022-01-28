@@ -42,6 +42,8 @@
     --caption-12regular_u: 400 0.75rem/1.25rem Inter;
     --black-scrollbar: 11, 20, 26;
     --white-scrollbar: 255, 255, 255;
+    --hover-container-chat: #f5f6f6;
+    --aria-selected-container-chat: #f0f2f5;
 }
 
 body {

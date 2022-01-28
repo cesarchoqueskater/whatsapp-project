@@ -6,6 +6,7 @@
     align-items: center;
     padding: 1rem;
     position: relative;
+    cursor: pointer;
     /* justify-content: center; */
 }
 
@@ -19,6 +20,14 @@
     right: 0;
     bottom: 0;
     position: absolute;
+}
+
+.container-chat-contact-list:hover {
+    background-color: var(--hover-container-chat);
+}
+
+.container-chat-contact-list[aria-selected='true'] {
+    background-color: var(--aria-selected-container-chat);
 }
 
 .chat-profile-details {
