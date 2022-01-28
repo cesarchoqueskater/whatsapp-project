@@ -10,7 +10,6 @@ export function addSelectedContactChat(value) {
             removeSelectedContactChat()
             index.setAttribute('aria-selected', true)
             setNameChatLayoutMain(index.querySelector('.chat-details .chat-contact-name').textContent)
-                // setImageChatLayoutMain(index.firstElementChild.src)
             setImageChatLayoutMain(index.querySelector('.chat-contact-img').src)
             if (value) {
                 showLayout()

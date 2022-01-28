@@ -2,18 +2,20 @@ import { addSelectedContactChat } from './setRemoveAriaSelected.js'
 import { navigationBackLayout } from './navigation-back.js'
 
 
-const imobile = window.matchMedia('screen and (max-width:768px)')
+let imobile = window.matchMedia("(min-width:768px)")
 
-addSelectedContactChat()
+addSelectedContactChat(true)
 
-imobile.onchange = (e) => {
-    console.log(e)
-    if (e.matches) {
-        // max-width:768px
+imobile.onchange = (event) => {
+    console.log(event)
+    if (!event.matches) {
+        // NOT max-width:768px
         addSelectedContactChat(true)
         navigationBackLayout()
+        return true
     } else {
-        // NOT max-width:768px
+        // max-width:768px
         addSelectedContactChat()
+        return true
     }
 }

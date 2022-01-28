@@ -7,16 +7,6 @@
     display: none;
 }
 
-@media screen and (min-width:768px) {
-    .layout-main {
-        inline-size: 100%;
-        display: block;
-    }
-}
-
-
-/* Javascript */
-
 .layout-block {
     display: block;
 }
@@ -32,4 +22,24 @@
     box-sizing: border-box;
     top: 0;
     z-index: 1;
+}
+
+@media screen and (min-width:768px) {
+    .layout {
+        display: flex;
+    }
+    .layout-main {
+        inline-size: 100%;
+        display: block;
+    }
+    .layout-sidebar {
+        position: static;
+    }
+    .layout-main-absolute {
+        display: block;
+        position: static;
+        /* inline-size: 100vw; */
+        top: auto;
+        z-index: auto;
+    }
 }
