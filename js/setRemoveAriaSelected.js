@@ -1,4 +1,5 @@
 import { showLayout, hideLayout } from './showHideLayout.js'
+import { setNameChatLayoutMain, setImageChatLayoutMain } from './setDinamicValueChat.js'
 
 const selectContactChat = document.querySelectorAll('.container-contact-list .container-chat-contact-list')
 
@@ -8,6 +9,9 @@ export function addSelectedContactChat(value) {
         index.addEventListener('click', function() {
             removeSelectedContactChat()
             index.setAttribute('aria-selected', true)
+            setNameChatLayoutMain(index.querySelector('.chat-details .chat-contact-name').textContent)
+                // setImageChatLayoutMain(index.firstElementChild.src)
+            setImageChatLayoutMain(index.querySelector('.chat-contact-img').src)
             if (value) {
                 showLayout()
                 return true

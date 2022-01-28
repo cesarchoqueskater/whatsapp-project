@@ -1,6 +1,5 @@
 import { addSelectedContactChat } from './setRemoveAriaSelected.js'
 import { navigationBackLayout } from './navigation-back.js'
-import { showLayout, hideLayout } from './showHideLayout.js'
 
 
 const imobile = window.matchMedia('screen and (max-width:768px)')
