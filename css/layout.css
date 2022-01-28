@@ -13,3 +13,23 @@
         display: block;
     }
 }
+
+
+/* Javascript */
+
+.layout-block {
+    display: block;
+}
+
+.layout-sidebar-relative {
+    position: relative;
+}
+
+.layout-main-absolute {
+    display: block;
+    position: absolute;
+    inline-size: 100vw;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 1;
+}

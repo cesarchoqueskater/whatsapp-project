@@ -11,6 +11,7 @@
 @import url('./contact-list.css');
 @import url('./form-search.css');
 @import url('./icons.css');
+@import url('./scrollbar.css');
 :root {
     font-size: 16px;
     --sidebarInlinseSize: 27.43rem;
@@ -47,17 +48,4 @@ body {
     margin: 0;
     font-family: 'Inter', sans-serif;
     /* font-family: 'Roboto Condensed', sans-serif; */
-}
-
-::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: rgba(var(--black-scrollbar), .2);
-}
-
-::-webkit-scrollbar-track {
-    background: rgba(var(--white-scr--black-scrollbar), .1);
 }
