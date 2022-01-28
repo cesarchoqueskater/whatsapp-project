@@ -1,20 +1,20 @@
-const layout = document.querySelector('.layout')
-const layoutSidebar = document.querySelector('.layout-sidebar')
-const layoutMain = document.querySelector('.layout-main')
-const selectContactChat = document.querySelectorAll('.container-contact-list .container-chat-contact-list')
+import { addSelectedContactChat } from './setRemoveAriaSelected.js'
+import { navigationBackLayout } from './navigation-back.js'
+import { showLayout, hideLayout } from './showHideLayout.js'
 
 
-selectContactChat.forEach((index) => {
-    index.addEventListener('click', function() {
-        removeSelectedContactChat()
-        index.setAttribute('aria-selected', true)
-    })
-})
+const imobile = window.matchMedia('screen and (max-width:768px)')
 
+addSelectedContactChat()
 
-export function removeSelectedContactChat() {
-    selectContactChat.forEach((index) => {
-        console.log("Eliminando")
-        index.removeAttribute('aria-selected', true)
-    })
+imobile.onchange = (e) => {
+    console.log(e)
+    if (e.matches) {
+        console.log("MATCH")
+        addSelectedContactChat(true)
+        navigationBackLayout()
+    } else {
+        console.log("NO MATCH")
+        addSelectedContactChat()
+    }
 }
