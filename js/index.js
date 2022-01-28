@@ -10,11 +10,11 @@ addSelectedContactChat()
 imobile.onchange = (e) => {
     console.log(e)
     if (e.matches) {
-        console.log("MATCH")
+        // max-width:768px
         addSelectedContactChat(true)
         navigationBackLayout()
     } else {
-        console.log("NO MATCH")
+        // NOT max-width:768px
         addSelectedContactChat()
     }
 }
