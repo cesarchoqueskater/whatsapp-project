@@ -23,6 +23,23 @@
     color: var(--black);
 }
 
+.sidebar-profile {
+    display: none;
+}
+
+.sidebar-profile[aria-selected="true"] {
+    display: block;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background-color: var(--grey-3);
+    left: 0;
+    inline-size: inherit;
+    bottom: 0;
+}
+
 @media screen and (min-width:768px) {
     .sidebar {
         inline-size: var(--sidebarInlinseSize);

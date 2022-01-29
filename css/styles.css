@@ -12,6 +12,7 @@
 @import url('./form-search.css');
 @import url('./icons.css');
 @import url('./scrollbar.css');
+@import url('./navigation-back.css');
 :root {
     font-size: 16px;
     --sidebarInlinseSize: 27.43rem;
