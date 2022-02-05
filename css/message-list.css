@@ -14,6 +14,7 @@
     background-image: url('../images/background-whatsapp.png');
     background-repeat: repeat;
     background-color: #efeae2;
+    -o-object-fit: cover;
     object-fit: cover;
     overflow: hidden;
 }

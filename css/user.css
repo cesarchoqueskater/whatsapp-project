@@ -6,6 +6,7 @@
 }
 
 .user .navigation-back {
+    -webkit-margin-end: .5rem;
     margin-inline-end: .5rem;
     cursor: pointer;
 }

@@ -1,4 +1,5 @@
 .p-sticky {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -16,6 +17,7 @@
 
 .user-profile img {
     border-radius: 50%;
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
@@ -61,6 +63,7 @@
 .profile-edit-change-image span {
     display: block;
     font: var(--body-16regular);
+    -webkit-padding-before: .25rem;
     padding-block-start: .25rem;
 }
 
@@ -68,14 +71,18 @@
     font: var(--body-16regular);
     background-color: var(--white);
     block-size: 6.31rem;
+    -webkit-padding-start: 1rem;
     padding-inline-start: 1rem;
+    -webkit-padding-end: 1rem;
     padding-inline-end: 1rem;
     padding-block: 1rem;
     box-sizing: border-box;
 }
 
 .profile-edit-name p {
+    -webkit-margin-before: 0;
     margin-block-start: 0;
+    -webkit-margin-after: 1.5rem;
     margin-block-end: 1.5rem;
 }
 

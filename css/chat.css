@@ -11,11 +11,13 @@
 }
 
 .chat .header {
+    -webkit-border-start: none;
     border-inline-start: none;
 }
 
 @media screen and (min-width:768px) {
     .chat .header {
+        -webkit-border-start: 2px solid var(--grey-1);
         border-inline-start: 2px solid var(--grey-1);
     }
 }

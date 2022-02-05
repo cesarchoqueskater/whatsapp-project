@@ -41,7 +41,9 @@
 }
 
 .chat-details {
+    -webkit-margin-before: 0;
     margin-block-start: 0;
+    -webkit-margin-after: .5rem;
     margin-block-end: .5rem;
     display: flex;
     flex-direction: row;
@@ -67,5 +69,6 @@
     content: url('../images/check.png');
     inline-size: 1rem;
     block-size: .625rem;
+    -webkit-margin-end: .25rem;
     margin-inline-end: .25rem;
 }

@@ -29,9 +29,13 @@
     inline-size: 12px;
     block-size: 12px;
     box-sizing: border-box;
+    -webkit-border-start: 6px solid transparent;
     border-inline-start: 6px solid transparent;
+    -webkit-border-end: 6px solid var(--white);
     border-inline-end: 6px solid var(--white);
+    -webkit-border-before: 6px solid var(--white);
     border-block-start: 6px solid var(--white);
+    -webkit-border-after: 6px solid transparent;
     border-block-end: 6px solid transparent;
 }
 
@@ -49,9 +53,13 @@
     inline-size: 12px;
     block-size: 12px;
     box-sizing: border-box;
+    -webkit-border-start: 6px solid var(--green-1);
     border-inline-start: 6px solid var(--green-1);
+    -webkit-border-end: 6px solid transparent;
     border-inline-end: 6px solid transparent;
+    -webkit-border-before: 6px solid var(--green-1);
     border-block-start: 6px solid var(--green-1);
+    -webkit-border-after: 6px solid transparent;
     border-block-end: 6px solid transparent;
 }
 
@@ -82,8 +90,12 @@
 .random {
     inline-size: 200px;
     box-sizing: border-box;
+    -webkit-border-start: 100px solid blue;
     border-inline-start: 100px solid blue;
+    -webkit-border-end: 100px solid transparent;
     border-inline-end: 100px solid transparent;
+    -webkit-border-before: 100px solid transparent;
     border-block-start: 100px solid transparent;
+    -webkit-border-after: 100px solid transparent;
     border-block-end: 100px solid transparent;
 }
