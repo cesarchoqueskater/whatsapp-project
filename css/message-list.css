@@ -3,6 +3,7 @@
 .message-list {
     display: flex;
     flex-direction: column-reverse;
+    grid-row-gap: 1.5rem;
     gap: 1.5rem;
     padding: 1rem;
     flex-grow: 1;
